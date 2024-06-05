@@ -16,7 +16,7 @@ function recursiveFactorial (num){
     return num * recursiveFactorial(num - 1)
   }
 }
-//module.exports = factorial
+module.exports = factorial
 
 console.log(factorial(4))
 console.log(factorial(5))
